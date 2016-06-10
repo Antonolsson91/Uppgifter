@@ -10,6 +10,17 @@ namespace Komplettering
     {
         static void Main(string[] args)
         {
+            var myLogger = new Logger();
+            myLogger.Log("First Post");
+            myLogger.Log("Second Post");
+            myLogger.Log("Third Post");
+            myLogger.Log("Fourth Post");
+            myLogger.Log("Fifth Post");
+
+            foreach(var item in myLogger.LogPosts)
+            {
+                Console.WriteLine(item);
+            }
         }      
     }
 }
