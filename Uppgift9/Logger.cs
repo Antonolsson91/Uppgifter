@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Komplettering
+namespace Uppgift9
 {
     class Logger
     {
