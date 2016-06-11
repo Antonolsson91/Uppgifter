@@ -43,6 +43,10 @@ namespace Uppgift9
             this.ssn = ssn;
             this.wage = wage;
         }
+        public Employee(string ssn)
+        {
+            this.ssn = ssn;
+        }
         public static void AddEmployee()
         {
             Console.Clear();
@@ -71,9 +75,11 @@ namespace Uppgift9
                     Console.WriteLine("Enter again YYMMDD-XXXX");
                     eSsn = Console.ReadLine();
                 }
-
+            var logger = new Logger();
             Employee employee = new Employee(fName, lName, eSsn, eWage);
             employeeList.Add(employee);
+            string logPost ="Added: " + employee.firstName + " " + employee.lastName;
+            logger.Log(logPost);
         }
         public static void RemoveEmployee()
         {
@@ -83,12 +89,18 @@ namespace Uppgift9
             string input = Console.ReadLine();
             foreach (Employee emp in employeeList)
             {
-                if (input == emp.ssn)
+                if (input == emp.Ssn)
                 {
                     remove = emp;
-                    employeeList.Remove(emp);
+                    
                 }
+               
             }
+            var logger = new Logger();
+            string logPost = "Removed: " + remove.firstName + " " + remove.lastName;
+            logger.Log(logPost);
+            employeeList.Remove(remove);
+            
         }
             public static void PrintEmployeeReg()
         {
