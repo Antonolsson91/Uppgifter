@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komplettering", "Kompletter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift9", "Uppgift9\Uppgift9.csproj", "{D8DE929A-7B10-4778-91B0-73299001825B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeGame", "LifeGame\LifeGame.csproj", "{49688694-F6BF-49B4-9319-BE945CF72C83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D8DE929A-7B10-4778-91B0-73299001825B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DE929A-7B10-4778-91B0-73299001825B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DE929A-7B10-4778-91B0-73299001825B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49688694-F6BF-49B4-9319-BE945CF72C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49688694-F6BF-49B4-9319-BE945CF72C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49688694-F6BF-49B4-9319-BE945CF72C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49688694-F6BF-49B4-9319-BE945CF72C83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
