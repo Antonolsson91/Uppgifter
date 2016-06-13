@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift9", "Uppgift9\Uppgif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeGame", "LifeGame\LifeGame.csproj", "{49688694-F6BF-49B4-9319-BE945CF72C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack\BlackJack.csproj", "{1FBBF6F6-C867-49C0-8AF5-D2826B2B1ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{49688694-F6BF-49B4-9319-BE945CF72C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49688694-F6BF-49B4-9319-BE945CF72C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49688694-F6BF-49B4-9319-BE945CF72C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBBF6F6-C867-49C0-8AF5-D2826B2B1ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBBF6F6-C867-49C0-8AF5-D2826B2B1ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBBF6F6-C867-49C0-8AF5-D2826B2B1ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBBF6F6-C867-49C0-8AF5-D2826B2B1ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
