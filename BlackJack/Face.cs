@@ -23,4 +23,4 @@ namespace BlackJack
             King = 10
         }
     }
-}
+
