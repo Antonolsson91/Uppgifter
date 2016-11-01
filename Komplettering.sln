@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack\Blac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift10", "Uppgift10\Uppgift10.csproj", "{34531CA2-B5A6-45F8-910A-BCE3C842F762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift11", "Uppgift11\Uppgift11.csproj", "{0655F256-65DD-43A7-83A9-3A05F767003E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{34531CA2-B5A6-45F8-910A-BCE3C842F762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34531CA2-B5A6-45F8-910A-BCE3C842F762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34531CA2-B5A6-45F8-910A-BCE3C842F762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0655F256-65DD-43A7-83A9-3A05F767003E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0655F256-65DD-43A7-83A9-3A05F767003E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0655F256-65DD-43A7-83A9-3A05F767003E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0655F256-65DD-43A7-83A9-3A05F767003E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
